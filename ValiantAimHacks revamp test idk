@@ -37,14 +37,14 @@ local FindFirstChild = Instancenew("Part").FindFirstChild
 getgenv().ValiantAimHacks = {
     SilentAimEnabled = true,
     ShowFOV = true,
-    FOVSides = 20,
+    FOVSides = 55,
     VisibleCheck = true,
     TeamCheck = true,
-    FOV = 65,
-    HitChance = 99,
+    FOV = 70,
+    HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
-    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"Head", "HumanoidRootPart","UpperTorso"},
     BlacklistedTeams = {
         {
             Team = LocalPlayer.Team,
@@ -60,7 +60,7 @@ local ValiantAimHacks = getgenv().ValiantAimHacks
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
 circle.Thickness = 3
-circle.Color = Color3fromRGB(231, 84, 128)
+circle.Color = Color3fromRGB(45, 58, 83)
 circle.Filled = false
 function ValiantAimHacks.updateCircle()
     if (circle) then
