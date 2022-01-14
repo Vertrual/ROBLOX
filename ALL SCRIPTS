@@ -2,7 +2,7 @@ Hood Duels Script (By: Ver#7777 & yes.#1745 Did A Little Work On It)
 Coming Soon!
 -=-=-=-=-=-=-=-=-=-=-=-
 Hood Modded Script (By: Ver#7777 & yes.#1745)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vertrual/ROBLOX/main/DHM%20OBFUSECATE.txt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vertrual/ROBLOX/main/DHM", true))()
 -- ( this script is in beta its gonna be ass till we fix it)
 -=-=-=-=-=-=-=-=-=-=-=-
 Da Hood
