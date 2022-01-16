@@ -37,10 +37,10 @@ local FindFirstChild = Instancenew("Part").FindFirstChild
 getgenv().ValiantAimHacks = {
     SilentAimEnabled = true,
     ShowFOV = true,
-    FOVSides = 50,
+    FOVSides = 25,
     VisibleCheck = true,
     TeamCheck = false,
-    FOV = 60,
+    FOV = 70,
     HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
@@ -59,7 +59,7 @@ local ValiantAimHacks = getgenv().ValiantAimHacks
 -- // Show FOV
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
-circle.Thickness = 2
+circle.Thickness = 1.5
 circle.Color = Color3fromRGB(132,222,2)
 circle.Filled = false
 function ValiantAimHacks.updateCircle()
