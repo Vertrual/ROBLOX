@@ -1,1 +1,4 @@
--- ill add code or whatever later
+local BanList = {
+	-- Format: ["<Player id>"] = "<Reason>"
+	["274293901"] = "Test ban Yeah yeah"
+}
